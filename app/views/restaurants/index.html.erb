@@ -1,0 +1,9 @@
+<div class="container mt-2">
+<h1> Choose your Restaurant !</h1>
+<ul>
+<% @restaurants.each do |restaurant| %>
+  <li><%= restaurant.name %> | <%= restaurant.address %> | <%= restaurant.category %></li>
+<% end %>
+</ul>
+
+</div>
